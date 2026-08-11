@@ -182,10 +182,10 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
   const institucion = document.getElementById("institucion").value.trim();
 
   const mensaje =
-`¡Hola! Mi nombre es ${nombre}.
-Institución / Colegio / Empresa: ${institucion}.
-
-Quisiera conocer más sobre AkademiAPP.`;
+`👋 ¡Hola!
+Mi nombre es: ${nombre}
+Trabajo en: ${institucion}
+📍 Te contacto desde el Seminario de Educación FME.`;
 
   const telefono = "56972154622";
   const url = "https://wa.me/" + telefono + "?text=" + encodeURIComponent(mensaje);
